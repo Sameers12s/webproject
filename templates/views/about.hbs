@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home</title>
+{{>headerLinks}}
+</head>
+
+<body>
+   {{>navbar}}
+
+    {{!-- main header --}}
+    <div class="containter-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    {{!-- Left side div --}}
+                    <div class="col-md-6 col-12 main_header_right">
+                            <figure>
+                                <img src="bg1.png" alt="Sameer" class="img-fluid" title="sameerWeb">
+
+                            </figure>
+                    </div>
+               
+                    <div class="col-md-6 col-12 main_header_left">
+                        <p>Welcome to weather app</p>
+                        <h1>I Am A <span class="text_color"> Mern Stack Developer</span> And A Student</h1>
+                        <a href="/weather"><button>check now</button></a>
+
+                    </div>
+                    {{!-- right side div --}}
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{!-- footer <code> --}}
+    {{>footer}}
+</body>
+
+</html>
